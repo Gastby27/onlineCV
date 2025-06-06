@@ -19,9 +19,10 @@ body {
     border: 2px solid #333;
     border-radius: 8px;
     padding: 20px;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+    /* box-shadow: inset 0 0 20px rgba(0, 255, 0, 0.5); */
 }
 
 .terminal-header {
@@ -195,6 +196,7 @@ body {
     align-items: center;
     gap: 10px;
     color: #00ff00;
+    
 }
 
 .contact-icon {
@@ -204,23 +206,24 @@ body {
 a {
     color: #00ffff;
     text-decoration: none;
+    transition: all 0.15s linear;
 }
 
 a:hover {
     color: #1a1a1a;
     background-color: #00ffff;
-    /* text-decoration: underline; */
 }
 
 .color-bar {
     display: flex;
+    width: 100%;
     gap: 2px;
-    margin: 20px 0;
+    margin: 1rem 0;
 }
 
 .color-block {
-    width: 20px;
-    height: 20px;
+    width: 20%;
+    height: 1.5rem;
 }
 
 .red { background-color: #ff0000; }
